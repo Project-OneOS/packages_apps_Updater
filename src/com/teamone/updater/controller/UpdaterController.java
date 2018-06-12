@@ -533,10 +533,4 @@ public class UpdaterController {
         return ABUpdateInstaller.isWaitingForReboot(mContext, downloadId);
     }
 
-    public void setPerformanceMode(boolean enable) {
-        if (!Utils.isABDevice()) {
-            return;
-        }
-        ABUpdateInstaller.getInstance(mContext, this).setPerformanceMode(enable);
-    }
 }
