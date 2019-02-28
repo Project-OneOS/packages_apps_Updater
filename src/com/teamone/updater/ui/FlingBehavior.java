@@ -1,4 +1,4 @@
-package com.havoc.updater.ui;
+package com.teamone.updater.ui;
 
 import android.content.Context;
 import android.support.design.widget.AppBarLayout;
