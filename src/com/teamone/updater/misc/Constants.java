@@ -38,7 +38,7 @@ public final class Constants {
 
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
     public static final String PROP_BUILD_VERSION = "ro.teamone.base.version";
-    public static final String PROP_DEVICE = "ro.teamone.device";
+    public static final String PROP_DEVICE = "ro.caf.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
     public static final String PROP_RELEASE_TYPE = "ro.teamone.releasetype";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "teamone.updater.allow_downgrading";
