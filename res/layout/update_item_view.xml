@@ -47,6 +47,7 @@
                 android:paddingLeft="12dp"
                 android:paddingTop="4dp"
                 android:maxLines="1"
+                android:textColor="@color/text_primary"
                 android:textSize="14sp"
                 tools:text="29 February 2018" />
 
@@ -74,6 +75,7 @@
                     android:ellipsize="marquee"
                     android:singleLine="true"
                     android:visibility="invisible"
+                    android:textColor="@color/text_primary"
                     tools:text="162 of 300 MB (3 minutes left) • 65%"
                     tools:visibility="visible" />
 
@@ -83,6 +85,7 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="8sp"
                     android:singleLine="true"
+                    android:textColor="@color/text_primary"
                     tools:text="300 MB"
                     tools:visibility="invisible" />
             </RelativeLayout>
