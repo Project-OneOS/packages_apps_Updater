@@ -36,7 +36,7 @@
                 android:drawablePadding="8dp"
                 android:maxLines="1"
                 android:paddingBottom="8sp"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@color/text_primary"
                 android:textSize="14sp"
                 tools:text="CAF" />
 

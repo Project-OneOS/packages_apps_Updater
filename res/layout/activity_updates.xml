@@ -51,7 +51,7 @@
                     android:layout_below="@id/header_image"
                     android:fontFamily="sans-serif"
                     android:paddingBottom="44dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/text_primary"
                     android:textSize="24sp"
                     tools:text="@string/snack_updates_check_failed" />
 
@@ -62,7 +62,7 @@
                     android:layout_below="@id/header_update_status"
                     android:fontFamily="sans-serif"
                     android:paddingLeft="8dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/text_primary"
                     android:textSize="14sp" />
 
                 <TextView
@@ -73,7 +73,7 @@
                     android:fontFamily="sans-serif"
                     android:paddingBottom="24dp"
                     android:paddingLeft="8dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/text_primary"
                     android:textSize="14sp" />
 
                 <TextView
@@ -83,7 +83,7 @@
                     android:layout_below="@id/header_security_patch"
                     android:fontFamily="sans-serif"
                     android:paddingLeft="8dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/text_primary"
                     android:textSize="14sp" />
             </RelativeLayout>
 
@@ -91,7 +91,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@color/text_primary"
                 app:layout_collapseMode="pin" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>

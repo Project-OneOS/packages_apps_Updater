@@ -145,7 +145,7 @@
     <string name="ongoing_channel_title">Ongoing downloads</string>
     <string name="update_failed_channel_title">Update failed</string>
 
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/AOSP-CAF-MSM8916/OTA/pie/{device}.md</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/AOSP-CAF-MSM8916/OTA/pie/<xliff:g id="device_name">%1$s</xliff:g>.md</string>
     <string name="changelog_fail">Failed to retrieve changelog</string>
 </resources>
 
