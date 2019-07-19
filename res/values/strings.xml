@@ -147,5 +147,6 @@
 
     <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/AOSP-CAF-MSM8916/OTA/pie/<xliff:g id="device_name">%1$s</xliff:g>.md</string>
     <string name="changelog_fail">Failed to retrieve changelog</string>
+    <string name="todo">TODO</string>
 </resources>
 
