@@ -102,6 +102,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
+                    android:textColor="@color/theme_accent"
                     android:textAllCaps="false"
                     tools:text="Pause" />
 
@@ -110,6 +111,7 @@
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/theme_accent"
                     android:gravity="left|center_vertical"
                     android:text="@string/action_changelog"
                     android:textAllCaps="false" />
