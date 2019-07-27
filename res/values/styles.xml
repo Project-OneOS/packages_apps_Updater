@@ -27,7 +27,7 @@
         <item name="colorControlNormal">@color/theme_accent</item>
     </style>
 
-    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Borderless"/>
+    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored"/>
 
     <style name="TextAppearanceInverted" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">@color/theme_accent</item>
