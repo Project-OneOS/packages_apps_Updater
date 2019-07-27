@@ -41,4 +41,9 @@
         <item name="android:dropDownVerticalOffset">8dp</item>
         <item name="android:dropDownHorizontalOffset">-16dp</item>
     </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/theme_primary_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
 </resources>
