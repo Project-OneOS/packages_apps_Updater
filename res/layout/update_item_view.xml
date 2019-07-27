@@ -18,7 +18,8 @@
         android:orientation="horizontal"
         android:background="@color/theme_primary"
         android:paddingTop="12dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -31,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.87"
-                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
                 android:paddingTop="4dp"
                 android:drawablePadding="8dp"
                 android:maxLines="1"
@@ -44,7 +45,7 @@
                 android:id="@+id/build_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="12dp"
+                android:paddingStart="12dp"
                 android:paddingTop="4dp"
                 android:maxLines="1"
                 android:textColor="@color/text_primary"
@@ -54,7 +55,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="12dp">
+                android:paddingStart="12dp">
 
                 <ProgressBar
                     android:id="@+id/progress_bar"
@@ -62,7 +63,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="4sp"
-                    android:paddingRight="12dp"
+                    android:paddingEnd="12dp"
+                    android:progressTint="@color/theme_accent"
                     android:visibility="invisible"
                     tools:progress="65"
                     tools:visibility="visible" />
