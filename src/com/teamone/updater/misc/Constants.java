@@ -37,12 +37,12 @@ public final class Constants {
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
 
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
-    public static final String PROP_BUILD_VERSION = "ro.teamone.base.version";
-    public static final String PROP_DEVICE = "ro.caf.device";
+    public static final String PROP_BUILD_VERSION = "ro.oneos.base.version";
+    public static final String PROP_DEVICE = "ro.one.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.teamone.releasetype";
-    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "teamone.updater.allow_downgrading";
-    public static final String PROP_UPDATER_URI = "teamone.updater.uri";
+    public static final String PROP_RELEASE_TYPE = "ro.oneos.releasetype";
+    public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "oneos.updater.allow_downgrading";
+    public static final String PROP_UPDATER_URI = "oneos.updater.uri";
 
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
