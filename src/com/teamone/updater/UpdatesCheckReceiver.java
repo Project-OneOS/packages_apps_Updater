@@ -25,20 +25,17 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.util.Log;
 
 import org.json.JSONException;
 import com.teamone.updater.download.DownloadClient;
 import com.teamone.updater.misc.Constants;
 import com.teamone.updater.misc.Utils;
-import com.teamone.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 import java.util.UUID;
 
 public class UpdatesCheckReceiver extends BroadcastReceiver {

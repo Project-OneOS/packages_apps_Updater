@@ -13,7 +13,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Updater</string>
+    <string name="app_name">System Updater</string>
     <string name="display_name">System updates</string>
 
     <!-- Directory where the update files will be downloaded and stored.
@@ -85,7 +85,13 @@
     <string name="header_title_text">OneOS</string>
     <string name="header_android_version">Android version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_security_patch">Security patch level: <xliff:g id="patch" example="January 5 2019">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Last successful check for update at <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">
+        Last checked:
+        <xliff:g id="date" example="1 January 1970">%1$s</xliff:g>
+        (
+        <xliff:g id="time" example="01:23">%2$s</xliff:g>
+        )
+    </string>
 
     <string name="list_build_version">OneOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">OneOS v<xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
@@ -136,7 +142,7 @@
     <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
     <string name="checkbox_mobile_data_warning">Do not show again</string>
     <string name="menu_mobile_data_warning">Mobile data warning</string>
-
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="blocked_update_dialog_title">Update blocked</string>
     <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.</string>
 
@@ -144,8 +150,12 @@
     <string name="new_updates_channel_title">New updates</string>
     <string name="ongoing_channel_title">Ongoing downloads</string>
     <string name="update_failed_channel_title">Update failed</string>
+    <string name="list_no_updates">No new updates found</string>
+    <string name="list_no_updates_summary">To manually check for new updates, use the Refresh button.</string>
 
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/AOSP-CAF-MSM8916/OTA/pie/<xliff:g id="device_name">%1$s</xliff:g>.md</string>
+
+    <string name="menu_show_changelog">Show changelog</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/AOSP-CAF-MSM8916/OTA/ten/{device}.txt</string>
     <string name="changelog_fail">Failed to retrieve changelog</string>
     <string name="todo">TODO</string>
 </resources>
