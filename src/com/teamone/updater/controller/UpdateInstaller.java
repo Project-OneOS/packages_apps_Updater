@@ -19,9 +19,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.os.SystemProperties;
-import androidx.preference.PreferenceManager;
+import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
+import com.teamone.updater.R;
 import com.teamone.updater.misc.Constants;
 import com.teamone.updater.misc.FileUtils;
 import com.teamone.updater.misc.Utils;

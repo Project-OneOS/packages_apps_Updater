@@ -15,7 +15,7 @@
  */
 package com.teamone.updater;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 public abstract class UpdatesListActivity extends AppCompatActivity {
     public abstract void showSnackbar(int stringId, int duration);
